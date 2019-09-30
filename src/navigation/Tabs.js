@@ -1,8 +1,8 @@
 import React from 'react';
 import {createMaterialBottomTabNavigator} from 'react-navigation-material-bottom-tabs';
 import {BottomTabsIcon} from '../lib/atoms';
-import Home from '../sences/Home';
-import Profile from '../sences/Profile';
+import Home from '../scences/Home';
+import Profile from '../scences/Profile';
 import Colors from '../styles';
 
 const HOME_ACTIVE = require('../assets/icons/home-active.png');

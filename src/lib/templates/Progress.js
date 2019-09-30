@@ -1,6 +1,6 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {View, Image, TouchableOpacity} from 'react-native';
+import {View, Image, TouchableOpacity, StyleSheet} from 'react-native';
 import {Progress} from '../molecules';
 import {MediumText} from '../atoms';
 import {elevationShadow} from '../utils';
@@ -14,7 +14,7 @@ const STAND = require('../../assets/icons/stand.png');
 const SHARE = require('../../assets/icons/share.png');
 
 export default () => (
-  <View style={container}>
+  <View style={styles.container}>
     <View
       style={{
         flexDirection: 'row',
@@ -52,11 +52,14 @@ export default () => (
   </View>
 );
 
-const container = {
-  backgroundColor: '#fff',
-  marginTop: 20,
-  marginBottom: 40,
-  marginHorizontal: 12,
-  borderRadius: 12,
-  ...elevationShadow(3),
-};
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#fff',
+    marginTop: 20,
+    marginBottom: 40,
+    marginHorizontal: 12,
+    borderRadius: 12,
+    ...elevationShadow(3),
+  },
+});
+

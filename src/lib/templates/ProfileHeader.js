@@ -1,5 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
-import React from 'react';
+import React, {Fragment} from 'react';
 import {View} from 'react-native';
 import {Avatar} from '../atoms';
 import {ProfileData, Calendar} from '../organisms';
