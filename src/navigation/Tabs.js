@@ -69,7 +69,7 @@ export default createMaterialBottomTabNavigator(
     },
   },
   {
-    initialRouteName: 'Profile',
+    initialRouteName: 'Home',
     order: ['Home', 'Calendar', 'Create', 'Notifications', 'Profile'],
     activeColor: Colors.charcoalGrey,
     inactiveColor: Colors.enaraGray,

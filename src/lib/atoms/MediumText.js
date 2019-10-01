@@ -2,7 +2,7 @@
 import React from 'react';
 import {Text} from 'react-native';
 
-export default ({children, color, size, height, spaceing}) => {
+export default ({children, color, size, height, spaceing, textAlign}) => {
   return (
     <Text
       style={{
@@ -11,7 +11,7 @@ export default ({children, color, size, height, spaceing}) => {
         color,
         lineHeight: height,
         letterSpacing: spaceing,
-        textAlign: 'center',
+        textAlign: textAlign ? textAlign : 'center',
       }}>
       {children}
     </Text>

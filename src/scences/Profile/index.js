@@ -31,5 +31,3 @@ export default ({navigation}) => {
     </SafeAreaView>
   );
 };
-// Current Weight: 169.76 lbs
-// Weight Gain: 44.98 lbs
