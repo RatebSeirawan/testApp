@@ -8,6 +8,7 @@ const Colors = {
   charcoalGrey: '#323648',
   title: 'rgb(96,102,127)',
   blackText: 'rgb(51,51,51)',
+  background: 'rgb(242,244,246)',
 };
 
 export {width, height};

@@ -1,9 +1,8 @@
 /* eslint-disable react-native/no-inline-styles */
-import React, {Fragment} from 'react';
+import React from 'react';
 import {View, StyleSheet, FlatList} from 'react-native';
-import {Avatar, MediumText} from '../atoms';
+import {MediumText} from '../atoms';
 import {HomeAvatar} from '../molecules';
-import {Card} from '../organisms';
 import Colors from '../../styles';
 
 export default ({userName, data}) => (
@@ -15,7 +14,7 @@ export default ({userName, data}) => (
       horizontal
       showsHorizontalScrollIndicator={false}
       data={data}
-      renderItem={({item}) => <HomeAvatar {...item} />}
+      renderItem={({item}) => <HomeAvatar key={item.name} {...item} />}
     />
   </View>
 );

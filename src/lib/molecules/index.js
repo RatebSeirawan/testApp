@@ -6,6 +6,7 @@ import CalendarNumbers from './CalendarNumbers';
 import Meal from './Meal';
 import Progress from './Progress';
 import HomeAvatar from './HomeAvatar';
+import TextTag from './TextTag';
 
 export {
   Meal,
@@ -16,4 +17,5 @@ export {
   Tag,
   ProgressPicker,
   HomeAvatar,
+  TextTag,
 };
